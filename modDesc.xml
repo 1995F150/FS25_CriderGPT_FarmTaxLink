@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modDesc descVersion="90">
+    <!--========================================================-->
+    <!-- FS25 CriderGPT ↔ Farm Tax Manager Integration          -->
+    <!-- Author: Jessie Crider (CriderGPT)                      -->
+    <!-- Version: 1.0.0.0 | Console Safe | FS25 Ready           -->
+    <!--========================================================-->
+
+    <author>Jessie Crider (CriderGPT)</author>
+    <version>1.0.0.0</version>
+
+    <title>
+        <en>FS25 CriderGPT ↔ Farm Tax Manager Integration</en>
+    </title>
+
+    <description>
+        <en>
+        Links CriderGPT Helper (Apollo Core) with the Farm Tax Manager for unified analytics,
+        automatic daily tax synchronization, and CriderGPT HUD notifications.  
+        Fully console-safe and ModHub-ready — part of the CriderGPT Automation Series.
+        </en>
+    </description>
+
+    <!-- Mod Icon -->
+    <iconFilename>modIcon.dds</iconFilename>
+
+    <!-- Multiplayer Compatibility -->
+    <multiplayer supported="true"/>
+
+    <!-- Mod Category -->
+    <category>gameplay</category>
+
+    <!-- Linked Script -->
+    <extraSourceFiles>
+        <sourceFile filename="FS25_CriderGPT_FarmTaxLink.lua"/>
+    </extraSourceFiles>
+
+    <!-- Dependencies -->
+    <dependencies>
+        <dependency>FS25_CriderGPTHelper</dependency>
+        <dependency>FS25_FarmTaxManager</dependency>
+    </dependencies>
+
+    <!-- Branding -->
+    <brands>
+        <brand name="CriderGPT"/>
+    </brands>
+
+    <!-- Store Info -->
+    <storeData>
+        <name>FS25 CriderGPT FarmTax Link</name>
+        <image>modIcon.dds</image>
+        <specs>
+            <spec name="Author" value="Jessie Crider (CriderGPT)"/>
+            <spec name="Version" value="1.0.0.0"/>
+            <spec name="Category" value="Gameplay / Integration"/>
+        </specs>
+    </storeData>
+
+    <!-- Localization (optional future) -->
+    <l10n filename="l10n_en.xml"/>
+
+</modDesc>
