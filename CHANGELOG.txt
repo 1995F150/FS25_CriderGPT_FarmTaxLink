@@ -1,0 +1,14 @@
+--------------------------------------------------
+Version: 1.0.0.0
+--------------------------------------------------
+- Initial release of FS25 CriderGPT ↔ Farm Tax Manager Integration.
+- Added automatic detection for both required mods (CriderGPT Helper + Farm Tax Manager).
+- Enabled daily sync of total taxes paid into CriderGPT Apollo analytics.
+- Added HUD notifications for tax updates (console-safe side display).
+- Implemented dependency validation using g_modIsLoaded.
+- Added CriderGPT Apollo commands:
+    • getTaxSummary() – view total tax paid.
+    • setTaxRate(value) – change sales tax dynamically.
+- Linked CriderGPT Helper’s HUD to Farm Tax Manager events.
+- Full ModHub and console compliance verified.
+- Part of the CriderGPT Automation Series by Jessie Crider (FFA Historian).
